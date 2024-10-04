@@ -1,0 +1,96 @@
+* {
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+:root {
+  --clr-primary-700: #37447e;
+  --clr-primary-500: #505f98;
+  --clr-primary-button: #111b47;
+}
+
+header,
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+main {
+  margin-top: 10rem;
+}
+
+body {
+  background-image: url("image/firstSection.svg"),
+    url("image/firstSectionPath.svg");
+  background-repeat: no-repeat;
+  background-position: 900px 150px, 100px -40px;
+  background-size: 500px 500px, 1600px 750px;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensures items are centered vertically */
+}
+
+ul {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 20px;
+  color: var(--clr-primary-500);
+}
+
+h2 {
+  margin: 0 20px;
+}
+
+button.buy-now {
+  padding: 3px 50px;
+  box-sizing: border-box;
+  background-color: var(--clr-primary-button);
+  border-radius: 5%;
+  color: white;
+}
+
+.Hero-Content {
+  width: 539.37px;
+}
+.Hero-Content h1 {
+  font-size: 3rem;
+}
+
+.Hero-Content p {
+  padding-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.purchase-ui {
+    border: none;
+  margin-top: 3rem;
+  background-color: var(--clr-primary-button);
+  color: white;
+  width: 189.13px;
+  height: 36px;
+  margin-right: 25px;
+}
+
+.learn-more {
+  border: none;
+
+  background-color: white;
+  color: black;
+  border: 3px solid #091133;
+  width: 189.13px;
+  height: 36px;
+}
+
+.text-block1{
+    margin-top: 17rem;
+}
